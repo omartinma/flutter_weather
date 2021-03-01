@@ -1,0 +1,9 @@
+# Register bricks which can be consumed via the Mason CLI.
+# https://pub.dev/packages/mason
+bricks:
+  # Sample Brick
+  # Run `mason make hello` to try it out.
+  flutter_package:
+    git:
+      url: git@github.com:VGVentures/very-good-code.git
+      path: very_good_templates/flutter_package
